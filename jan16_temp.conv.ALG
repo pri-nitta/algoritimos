@@ -1,18 +1,18 @@
 Algoritmo "C_para_F"
 //
 //
-// Descrição   : converte o valor da temperatura de C para F
+// DescriÃ§Ã£o   : converte o valor da temperatura de C para F
 // Autor(a)    : Priscila Nitta
 // Data atual  : 16/01/2021
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    f, c: real
    continue: caractere
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   escreval ("Vamos converter o valor da temperatura de Cº para F")
-   escreva ("Vamos começar? (S/N) ")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   escreval ("Vamos converter o valor da temperatura de CÂº para F")
+   escreva ("Vamos comeÃ§ar? (S/N) ")
    leia (continue)
 
    escreval (" ")
@@ -21,9 +21,9 @@ Inicio
       escreva ("Digite a temperatura em graus celsius: ")
       leia (c)
       f <- ( 9  * c + 160 ) / 5
-      escreval ("A temperatura em Fahrenheit é ", f)
+      escreval ("A temperatura em Fahrenheit Ã© ", f)
       escreval (" ")
-      escreva ("Quer fazer mais conversões? (S/N) ")
+      escreva ("Quer fazer mais conversÃµes? (S/N) ")
       leia (continue)
       limpatela
    fimenquanto
